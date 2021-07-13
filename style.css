@@ -1,0 +1,188 @@
+body{
+  text-align: center; 
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+/* ヘッダー */
+header{
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  top: 0;
+  position: fixed;
+  z-index: 10;
+}
+
+.header-logo{
+  width: 150px;
+  height:50px;
+  float: left;
+}
+
+.header-right{
+  float: right;
+}
+
+.header-right a{
+  color: black;
+  font-size: 12px;
+}
+
+li{
+  list-style: none;
+  float: left;
+  padding-right: 20px;
+}
+
+/* トップ */
+.top-wrapper{
+  background-image: url(images/contact.jpg);
+  background-size: cover;
+  background-color: rgba(219, 216, 216, 0.6);
+  background-blend-mode: lighten;
+  height: 300px;
+}
+
+.top-wrapper h1{
+  padding: 150px 0 150px 0;
+  font-size: 50px;
+  color:rgb(46, 46, 46);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* コンタクト */
+.heading{
+  padding: 10px 0px ;
+  background-color: rgba(167, 214, 241, 0.521);
+  height: 28px;
+  margin: 40px 0 20px 0; 
+}
+
+.contact-wrapper p{
+  font-size: 13px;
+  margin-bottom: 50px;
+}
+
+.contact-wrapper form{
+  width: 570px;
+  margin: 0 auto;
+  background-image: url(images/background.jpeg);
+  background-size: cover;
+  background-color: rgba(219, 216, 216, 0.8);
+  background-blend-mode: lighten;
+  padding: 50px;
+  text-align: left;
+}
+
+.item{
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.item span{
+  font-size: 10px;
+  color: maroon;
+}
+
+.label{
+  float: left;
+  margin-right: 100px;
+  border-left: solid 7px maroon;
+  padding-left: 7px;
+}
+
+input{
+  border: solid 2px #aaa;
+  border-radius:5px;
+  padding:10px;
+  font-size: 15px;
+}
+
+.inputs{
+  float: right;
+  width:280px;
+}
+
+.category{
+  border: solid 2px #aaa;
+  border-radius:5px;
+  padding:10px;
+  font-size: 15px;
+  width: 305px;
+  float: right;
+}
+
+input[type="radio"] {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+textarea{
+  border: solid 2px #aaa;
+  border-radius:5px;
+  padding: 10px;
+  height: 160px;
+  font-size: 15px;
+}
+
+input[type="submit"]{
+  background: maroon;
+  border: none;
+  color: white;
+  font-size:17px;
+  font-weight:bold;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 7px;
+}
+
+input[type="reset"]{
+  background: #aaa;
+  font-size:17px;
+  font-weight:bold;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 7px;
+  color: white;
+}
+
+.submit-btn{
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* フッター */
+footer{
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  top: 0;
+  border-top:  rgba(167, 214, 241, 0.521) solid 1px;
+  margin-bottom: 40px;
+}
+
+.footer-list a{
+  color: black;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-list li{
+  padding-left: 30px;
+}
+
+.footer-right{
+  font-size: 10px;
+  color: gray;
+  float: right;
+}
